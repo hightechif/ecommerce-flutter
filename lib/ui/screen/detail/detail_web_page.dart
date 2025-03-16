@@ -89,52 +89,41 @@ class _DetailWebPageState extends State<DetailWebPage> {
                             padding: const EdgeInsets.all(16),
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
                                   widget.product.name,
-                                  textAlign: TextAlign.center,
+                                  textAlign: TextAlign.start,
                                   style: const TextStyle(
-                                    fontSize: 30.0,
+                                    fontSize: 24.0,
                                     fontFamily: 'Staatliches',
                                   ),
                                 ),
                                 Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Row(
-                                      children: <Widget>[
-                                        const Icon(Icons.calendar_today),
-                                        const SizedBox(width: 8.0),
-                                        Text(
-                                          "widget.product.openDays",
-                                          style: widget.informationTextStyle,
-                                        ),
-                                      ],
-                                    ),
-                                    const FavoriteButton(),
-                                  ],
-                                ),
-                                Row(
-                                  children: <Widget>[
-                                    const Icon(Icons.access_time),
-                                    const SizedBox(width: 8.0),
                                     Text(
-                                      "widget.product.openTime",
-                                      style: widget.informationTextStyle,
+                                      widget.product.price,
+                                      textAlign: TextAlign.start,
+                                      style: const TextStyle(
+                                        fontSize: 28.0,
+                                        fontFamily: 'Staatliches',
+                                      ),
                                     ),
+                                    FavoriteButton(),
                                   ],
                                 ),
                                 const SizedBox(height: 8.0),
-                                Row(
-                                  children: <Widget>[
-                                    const Icon(Icons.monetization_on),
-                                    const SizedBox(width: 8.0),
-                                    Text(
-                                      widget.ticketPrice,
-                                      style: widget.informationTextStyle,
-                                    ),
-                                  ],
+                                Container(
+                                  margin: const EdgeInsets.symmetric(vertical: 16.0),
+                                  child: Divider(color: Colors.grey),
+                                ),
+                                Text(
+                                  "Deskripsi Produk",
+                                  textAlign: TextAlign.start,
+                                  style: const TextStyle(
+                                    fontSize: 30.0,
+                                    fontFamily: 'Staatliches',
+                                  ),
                                 ),
                                 Container(
                                   padding: const EdgeInsets.symmetric(

@@ -39,7 +39,7 @@ class ShowcaseGrid extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Expanded(
-                child: Image.asset(product.imageAsset, fit: BoxFit.cover),
+                child: Image.network(product.imageAsset, fit: BoxFit.cover),
               ),
               const SizedBox(height: 8),
               Padding(
