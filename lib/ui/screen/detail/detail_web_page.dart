@@ -41,7 +41,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Wisata Bandung',
+                    'Product Detail',
                     style: TextStyle(fontFamily: 'Staatliches', fontSize: 32),
                   ),
                   const SizedBox(height: 32),
@@ -50,10 +50,17 @@ class _DetailWebPageState extends State<DetailWebPage> {
                     children: [
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             ClipRRect(
                               borderRadius: BorderRadius.circular(10),
-                              child: Image.asset(widget.product.imageAsset),
+                              child: Image.network(widget.product.imageAsset),
+                            ),
+                            const SizedBox(height: 16),
+                            Text(
+                              "Biasa dibeli bersamaan",
+                              textAlign: TextAlign.start,
+                              style: const TextStyle(fontSize: 22.0, fontFamily: 'Oxygen'),
                             ),
                             const SizedBox(height: 16),
                             Scrollbar(
