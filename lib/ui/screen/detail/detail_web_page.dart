@@ -44,7 +44,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
                     'Product Detail',
                     style: TextStyle(fontFamily: 'Staatliches', fontSize: 32),
                   ),
-                  const SizedBox(height: 32),
+                  const SizedBox(height: 16),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -54,13 +54,16 @@ class _DetailWebPageState extends State<DetailWebPage> {
                           children: [
                             ClipRRect(
                               borderRadius: BorderRadius.circular(10),
-                              child: Image.network(widget.product.imageAsset),
+                              child: SizedBox(height: 500.0 , child: Image.network(widget.product.imageAsset)),
                             ),
                             const SizedBox(height: 16),
                             Text(
                               "Biasa dibeli bersamaan",
                               textAlign: TextAlign.start,
-                              style: const TextStyle(fontSize: 22.0, fontFamily: 'Oxygen'),
+                              style: const TextStyle(
+                                fontSize: 30.0,
+                                fontFamily: 'Staatliches',
+                              ),
                             ),
                             const SizedBox(height: 16),
                             Scrollbar(

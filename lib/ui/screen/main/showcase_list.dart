@@ -30,16 +30,20 @@ class ShowcaseList extends StatelessWidget {
                 width: 175.0,
                 child: Card(
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16), // Adjust the radius as needed
+                    borderRadius: BorderRadius.circular(
+                      16,
+                    ), // Adjust the radius as needed
                   ),
                   clipBehavior: Clip.antiAlias,
                   elevation: 2.0,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Image.network(
-                        product.imageAsset,
-                        fit: BoxFit.cover,
+                      Expanded(
+                        child: Image.network(
+                          product.imageAsset,
+                          fit: BoxFit.cover,
+                        ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),

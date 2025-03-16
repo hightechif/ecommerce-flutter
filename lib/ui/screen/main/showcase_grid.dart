@@ -35,11 +35,18 @@ class ShowcaseGrid extends StatelessWidget {
           );
         },
         child: Card(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(
+              16,
+            ), // Adjust the radius as needed
+          ),
+          clipBehavior: Clip.antiAlias,
+          elevation: 2.0,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Expanded(
-                child: Image.network(product.imageAsset, fit: BoxFit.cover),
+                child: Image.network(product.imageAsset, fit: BoxFit.fill),
               ),
               const SizedBox(height: 8),
               Padding(
