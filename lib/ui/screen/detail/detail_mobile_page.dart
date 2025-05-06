@@ -23,10 +23,9 @@ class DetailMobilePage extends StatefulWidget {
 class _DetailMobilePage extends State<DetailMobilePage> {
   int _quantity = 0;
 
-  void _increment() => setState(() => _quantity++);
+  void _addToCart() => {setState(() => _quantity++)};
 
-  void _decrement() =>
-      setState(() => _quantity = _quantity > 1 ? _quantity - 1 : 1);
+  void _setQuantity(int newQty) => setState(() => _quantity = newQty);
 
   @override
   Widget build(BuildContext context) {
@@ -171,12 +170,22 @@ class _DetailMobilePage extends State<DetailMobilePage> {
                   _quantity == 0
                       ? Expanded(
                         child: ElevatedButton(
-                          onPressed: _increment,
-                          child: Text('+ Add to Cart'),
+                          onPressed: _addToCart,
+                          style: ElevatedButton.styleFrom(
+                            minimumSize: const Size.fromHeight(50), // 🔧 sets fixed height
+                          ),
+                          child: Text(
+                            '+ Add to Cart',
+                            style: TextStyle(fontSize: 16),
+                          ),
                         ),
                       )
                       : Expanded(
-                        child: QuantityStepper(), // Your stepper widget
+                        child: QuantityStepper(
+                          onQtyChanged: (int qty) {
+                            _setQuantity(qty);
+                          },
+                        ), // Your stepper widget
                       ),
                 ],
               ),
