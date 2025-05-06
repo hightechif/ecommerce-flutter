@@ -1,7 +1,7 @@
 import 'package:ecommerce_flutter/model/product_item.dart';
 import 'package:flutter/material.dart';
 
-import '../../component/favorite_button.dart';
+import '../../component/button/favorite_button.dart';
 
 class DetailWebPage extends StatefulWidget {
   final ProductItem product;
