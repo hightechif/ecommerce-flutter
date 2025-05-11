@@ -1,5 +1,6 @@
 import 'package:ecommerce_flutter/model/product_item.dart';
 import 'package:ecommerce_flutter/ui/component/stepper/quantity_stepper.dart';
+import 'package:ecommerce_flutter/utils/numbers_utils.dart';
 import 'package:flutter/material.dart';
 
 import '../../component/button/favorite_button.dart';
@@ -66,7 +67,7 @@ class _DetailMobilePage extends State<DetailMobilePage> {
                       ),
                     ),
                     Text(
-                      widget.product.price,
+                      widget.product.price.toIDR(),
                       textAlign: TextAlign.start,
                       style: const TextStyle(
                         fontSize: 22.0,

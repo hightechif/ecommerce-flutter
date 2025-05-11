@@ -1,7 +1,7 @@
 import 'package:ecommerce_flutter/model/product_item.dart';
+import 'package:ecommerce_flutter/ui/screen/detail/detail_screen.dart';
+import 'package:ecommerce_flutter/utils/numbers_utils.dart';
 import 'package:flutter/material.dart';
-
-import '../detail/detail_screen.dart';
 
 class ShowcaseGrid extends StatelessWidget {
   final int gridCount;
@@ -61,7 +61,7 @@ class ShowcaseGrid extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 8.0, bottom: 8.0),
-                child: Text(product.price),
+                child: Text(product.price.toIDR()),
               ),
             ],
           ),

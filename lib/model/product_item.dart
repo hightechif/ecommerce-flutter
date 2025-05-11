@@ -1,7 +1,7 @@
 class ProductItem {
   String plu;
   String name;
-  String price;
+  double price;
   String description;
   String imageAsset;
   List<String> imageUrls;
@@ -20,7 +20,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -33,7 +33,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -46,7 +46,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -59,7 +59,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -72,7 +72,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -85,7 +85,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -98,7 +98,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -111,7 +111,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -124,7 +124,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',
@@ -137,7 +137,7 @@ var productList = [
   ProductItem(
     plu: "SO2GOOD",
     name: 'So Good Chicken Spicy Wing 400G',
-    price: 'Rp. 61.800',
+    price: 61800,
     description:
     'So Good menghadirkan Spicy Chicken Wings, sayap ayam pilihan penuh kelezatan dengan kombinasi rasa pedas manis kaya akan bumbu dan meresap hingga ke dalam setiap gigitannya.',
     imageAsset: 'https://www.japfabest.com/cdn/shop/products/spicywingnewpackaging_1200x1200.png?v=1621579313',

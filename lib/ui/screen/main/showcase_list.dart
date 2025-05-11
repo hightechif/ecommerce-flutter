@@ -1,4 +1,5 @@
 import 'package:ecommerce_flutter/model/product_item.dart';
+import 'package:ecommerce_flutter/ui/component/card/my_card.dart';
 import 'package:ecommerce_flutter/ui/screen/detail/detail_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -28,41 +29,7 @@ class ShowcaseList extends StatelessWidget {
               },
               child: SizedBox(
                 width: 175.0,
-                child: Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(
-                      16,
-                    ), // Adjust the radius as needed
-                  ),
-                  clipBehavior: Clip.antiAlias,
-                  elevation: 2.0,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Expanded(
-                        child: Image.network(
-                          product.imageAsset,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            Text(
-                              product.name,
-                              style: const TextStyle(fontSize: 16.0),
-                            ),
-                            const SizedBox(height: 10),
-                            Text(product.price),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
+                child: MyCard(product: product, boxFit: BoxFit.cover)
               ),
             );
           },

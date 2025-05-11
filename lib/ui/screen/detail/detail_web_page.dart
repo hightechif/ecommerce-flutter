@@ -1,4 +1,5 @@
 import 'package:ecommerce_flutter/model/product_item.dart';
+import 'package:ecommerce_flutter/utils/numbers_utils.dart';
 import 'package:flutter/material.dart';
 
 import '../../component/button/favorite_button.dart';
@@ -112,7 +113,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
                                 Row(
                                   children: [
                                     Text(
-                                      widget.product.price,
+                                      widget.product.price.toIDR(),
                                       textAlign: TextAlign.start,
                                       style: const TextStyle(
                                         fontSize: 28.0,
