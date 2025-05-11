@@ -18,7 +18,7 @@ class ProductItem {
 
 var productList = [
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -31,7 +31,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -44,7 +44,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -57,7 +57,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -70,7 +70,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -83,7 +83,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -96,7 +96,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -109,7 +109,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -122,7 +122,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
@@ -135,7 +135,7 @@ var productList = [
     ],
   ),
   ProductItem(
-    plu: "SO2GOOD",
+    plu: "2231643",
     name: 'So Good Chicken Spicy Wing 400G',
     price: 61800,
     description:
